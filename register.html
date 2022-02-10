@@ -53,6 +53,18 @@
             <div class="form-control" >
                 <input type="text" id="txtGender" placeholder="Enter the Gender">
             </div>
+            <div class="form-control" >
+                <input type="text" id="txtBreed" placeholder="Enter the Breed">
+            </div>
+
+            <div class="form-control" >
+                <select id="selService">
+                    <option value="nailsCut">Nails cut</option>
+                    <option value="furcut">Gromming</option>
+                    <option value="wash">Wash</option>
+                    <option value="fullService">FullService</option>
+                </select>
+            </div>
             <button onclick="register();">Register</button>
             <table id="tbl" class="content-table">
                 <thead>
@@ -60,6 +72,8 @@
                         <th>Pet Name</th>
                         <th>Pet Age</th>
                         <th>Pet Gender</th>
+                        <th>Pet Breed</th>
+                        <th>Service</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -67,21 +81,29 @@
                         <td>Sammy</td>
                         <td>3</td>
                         <td>male</td>
+                        <td>Boxer</td>
+                        <td>Nails</td>
                     </tr>
                     <tr>
                         <td>Sarge</td>
                         <td>8</td>
                         <td>male</td>
+                        <td>Pet Breed</td>
+                        <td>Grooming</td>
                     </tr>
                     <tr>
                         <td>Army</td>
                         <td>10</td>
                         <td>female</td>
+                        <td>Pet Breed</td>
+                        <td>Wash</td>
                     </tr>
                     <tr>
                         <td>Rambo</td>
                         <td>15</td>
                         <td>male</td>
+                        <td>Pet Breed</td>
+                        <td>Full Service</td>
                     </tr>
                 </tbody>
             </table>
